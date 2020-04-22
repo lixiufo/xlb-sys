@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa2b3532-a08d-4812-a1d3-111c66ca59b8" name="Default Changelist" comment="" />
+    <list default="true" id="fa2b3532-a08d-4812-a1d3-111c66ca59b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/demo-common/demo-common-core/target/" />
     <ignored path="$PROJECT_DIR$/demo-common/demo-common-quartz/target/" />
@@ -80,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-x-biz/demo-operation/src/main/java/com/demo/demooperation/controller/web/v1/V1DemoOperationFissionArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="94">
+              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,6 +129,9 @@
     <replaceStrings>
       <replace>干货</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,13 +216,13 @@
     <option name="width" value="1284" />
     <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,160 +230,11 @@
               <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
               <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demooperation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demooperation" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="新建文件夹 (5)" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-x-biz" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-operation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xlb-sys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -689,8 +545,16 @@
       <workItem from="1587459433181" duration="760000" />
       <workItem from="1587460441871" duration="7282000" />
       <workItem from="1587473311751" duration="55000" />
-      <workItem from="1587533614917" duration="599000" />
+      <workItem from="1587533614917" duration="1635000" />
     </task>
+    <task id="LOCAL-00001" summary="二版">
+      <created>1587534748436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587534748436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -702,7 +566,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166865000" />
+    <option name="totallyTimeSpent" value="167901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -781,6 +645,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="二版" />
+    <option name="LAST_COMMIT_MESSAGE" value="二版" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo-x-biz/demo-operation/src/main/resources/config/logback-boot.xml">
@@ -1122,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-x-biz/demo-operation/src/main/java/com/demo/demooperation/controller/web/v1/V1DemoOperationFissionArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="94">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
