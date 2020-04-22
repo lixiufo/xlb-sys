@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-operation
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.110.224.48:8848
+      config:
+        server-addr: 47.110.224.48:8848
+        file-extension: yaml
+        prefix: demo-operation
+server:
+  port: 80

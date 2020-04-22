@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common.iml" filepath="$PROJECT_DIR$/demo-common/demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-core/demo-common-core.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-core/demo-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-data-mongo/demo-common-data-mongo.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-data-mongo/demo-common-data-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-data-mybatis/demo-common-data-mybatis.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-data-mybatis/demo-common-data-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-data-redis/demo-common-data-redis.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-data-redis/demo-common-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-log/demo-common-log.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-log/demo-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-quartz/demo-common-quartz.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-quartz/demo-common-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-rabbitmq/demo-common-rabbitmq.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-rabbitmq/demo-common-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-swagger/demo-common-swagger.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-swagger/demo-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-common/demo-common-wechat-common.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-common/demo-common-wechat-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-miniapp/demo-common-wechat-miniapp.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-miniapp/demo-common-wechat-miniapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-mp/demo-common-wechat-mp.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-mp/demo-common-wechat-mp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-open/demo-common-wechat-open.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-open/demo-common-wechat-open.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-pay/demo-common-wechat-pay.iml" filepath="$PROJECT_DIR$/demo-common/demo-common-wechat/demo-common-wechat-pay/demo-common-wechat-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-x-micro/demo-gateway/demo-gateway.iml" filepath="$PROJECT_DIR$/demo-x-micro/demo-gateway/demo-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-x-micro/demo-nacos-server/demo-nacos-server.iml" filepath="$PROJECT_DIR$/demo-x-micro/demo-nacos-server/demo-nacos-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-x-micro/demo-oauth/demo-oauth.iml" filepath="$PROJECT_DIR$/demo-x-micro/demo-oauth/demo-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-x-biz/demo-operation/demo-operation.iml" filepath="$PROJECT_DIR$/demo-x-biz/demo-operation/demo-operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-x-biz/demo-x-biz.iml" filepath="$PROJECT_DIR$/demo-x-biz/demo-x-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-x-micro/demo-x-micro.iml" filepath="$PROJECT_DIR$/demo-x-micro/demo-x-micro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-utils/video-utils.iml" filepath="$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-utils/video-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-dao/videos-dao.iml" filepath="$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-dao/videos-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-parent.iml" filepath="$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-pojo/videos-pojo.iml" filepath="$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-pojo/videos-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-service/videos-services.iml" filepath="$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-service/videos-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-web/videos-web.iml" filepath="$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-web/videos-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xlb-sys.iml" filepath="$PROJECT_DIR$/xlb-sys.iml" />
+    </modules>
+  </component>
+</project>

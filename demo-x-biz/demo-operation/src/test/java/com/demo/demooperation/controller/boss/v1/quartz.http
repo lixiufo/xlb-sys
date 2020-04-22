@@ -1,0 +1,21 @@
+### 查询所有定时任务
+GET https://w.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=1027339b-cc74-4643-b3fb-f8916c427fe9
+
+### 测试环境
+GET http://test.api.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=6a5a7cda-889d-4a38-941f-a9357a6b97cd
+
+### 运行
+POST http://test.api.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=6a5a7cda-889d-4a38-941f-a9357a6b97cd&jobName=InitBossDataJob&jobGroup=demo-operation
+
+
+### 执行指定定时任务
+POST https://w.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=7d039050-cae2-4549-93d7-ffc44f29e9e2&jobName=boss-init-data&jobGroup=demo-operation
+###
+POST https://w.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=d3802cb6-8ec3-4e7e-8dcb-9d2003b2306f&jobName=InitBossDataJob&jobGroup=demo-operation
+
+###
+POST https://w.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=c740a664-3fef-41b0-81d6-933a891d85dc&jobName=clear-wechat-log&jobGroup=demo-utils
+
+
+### 删除指定定时任务
+DELETE https://w.xiaoliebian.com/api/demo-operation/v1/quartz?access_token=9c550177-4e42-465b-b8bd-0aa631f5a6c7&jobName=clear-inviteCode-img&jobGroup=demo-wx-sys

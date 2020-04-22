@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.demo.democommoncore.aspect.InnerFeignAspect,\
+  com.demo.democommoncore.aspect.ParamCheckAspect,\
+  com.demo.democommoncore.exception.ExceptionHandle

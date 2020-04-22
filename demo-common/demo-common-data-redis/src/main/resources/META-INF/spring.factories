@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.demo.democommondataredis.config.RedisTemplateConfig,\
+  com.demo.democommondataredis.aspect.RedisApiLimitAspect

@@ -1,0 +1,271 @@
+2020-04-21 19:58:19.854 [main] INFO  c.u.j.c.EnableEncryptablePropertiesConfiguration - Bootstraping jasypt-string-boot auto configuration in context: demo-operation-1
+2020-04-21 19:58:19.854 [main] INFO  com.demo.demooperation.DemoOperationApplication - The following profiles are active: localtest
+2020-04-21 19:58:21.432 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-21 19:58:21.436 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-21 19:58:21.484 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-04-21 19:58:21.762 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=07b15644-6b7d-33f3-946e-142bd626ebaf
+2020-04-21 19:58:21.858 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2020-04-21 19:58:21.873 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource bootstrapProperties [org.springframework.cloud.bootstrap.support.OriginTrackedCompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-04-21 19:58:21.873 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-21 19:58:21.873 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 19:58:21.873 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 19:58:21.873 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 19:58:21.873 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 19:58:21.874 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 19:58:21.874 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 19:58:21.874 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 19:58:21.874 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 19:58:21.923 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-21 19:58:22.284 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.289 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.297 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@743bb39a' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.300 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.313 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.315 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.316 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.325 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-21 19:58:22.325 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-21 19:58:22.429 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.500 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 19:58:22.921 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-04-21 19:58:22.921 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3045 ms
+2020-04-21 19:58:24.867 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-04-21 19:58:24.867 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2020-04-21 19:58:24.868 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-04-21 19:58:25.341 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-21 19:58:25.525 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2020-04-21 19:58:25.527 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2020-04-21 19:58:25.538 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-21 19:58:25.538 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2020-04-21 19:58:25.549 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+2020-04-21 19:58:26.071 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+2020-04-21 19:58:26.091 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2020-04-21 19:58:26.095 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2020-04-21 19:58:26.096 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'PCOS-2019EYIZMC1587470305527'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-04-21 19:58:26.096 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-04-21 19:58:26.096 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2020-04-21 19:58:26.096 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4f22fd5d
+2020-04-21 19:58:26.436 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+2020-04-21 19:58:26.436 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "DESKTOP-U8SLEFR1587016438449"'s failed in-progress jobs.
+2020-04-21 19:58:26.586 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587470305527 started.
+2020-04-21 19:58:26.600 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587470305527 started.
+2020-04-21 19:58:26.709 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587470305527_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 19:58:29.096 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2020-04-21 19:58:29.096 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587470305527 shutting down.
+2020-04-21 19:58:29.096 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587470305527 paused.
+2020-04-21 19:58:29.097 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587470305527 shutdown complete.
+2020-04-21 19:58:29.113 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated...
+2020-04-21 19:58:29.122 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed.
+2020-04-21 19:58:29.138 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-21 20:39:07.374 [main] INFO  c.u.j.c.EnableEncryptablePropertiesConfiguration - Bootstraping jasypt-string-boot auto configuration in context: demo-operation-1
+2020-04-21 20:39:07.378 [main] INFO  com.demo.demooperation.DemoOperationApplication - The following profiles are active: localtest
+2020-04-21 20:39:09.321 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-21 20:39:09.323 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-21 20:39:09.361 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-04-21 20:39:09.628 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a72a60e2-a63d-377c-901c-3b7ef612dce3
+2020-04-21 20:39:09.723 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource bootstrapProperties [org.springframework.cloud.bootstrap.support.OriginTrackedCompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:39:09.740 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:39:09.788 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-21 20:39:10.059 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.065 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.074 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4d0e1a9a' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.076 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.092 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.094 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.095 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.105 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-21 20:39:10.105 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-21 20:39:10.218 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.287 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.312 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:39:10.696 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-04-21 20:39:10.696 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3247 ms
+2020-04-21 20:39:12.501 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-04-21 20:39:12.502 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2020-04-21 20:39:12.502 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-04-21 20:39:12.979 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-21 20:39:13.133 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2020-04-21 20:39:13.136 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2020-04-21 20:39:13.147 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-21 20:39:13.147 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2020-04-21 20:39:13.157 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+2020-04-21 20:39:13.570 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+2020-04-21 20:39:13.585 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2020-04-21 20:39:13.587 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2020-04-21 20:39:13.588 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'PCOS-2019EYIZMC1587472753135'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-04-21 20:39:13.588 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-04-21 20:39:13.588 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2020-04-21 20:39:13.588 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@a93c798
+2020-04-21 20:39:13.953 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+2020-04-21 20:39:13.954 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "PCOS-2019EYIZMC1587470305527"'s failed in-progress jobs.
+2020-04-21 20:39:14.085 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472753135 started.
+2020-04-21 20:39:14.095 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472753135 started.
+2020-04-21 20:39:14.177 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472753135_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:39:16.501 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-21 20:39:16.508 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-21 20:39:16.966 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-21 20:39:17.051 [main] INFO  c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-04-21 20:39:17.294 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-21 20:39:18.059 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ee4761f3-9282-4950-9485-286bab1e896d
+
+2020-04-21 20:39:18.451 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d50f682, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b44ed3c, org.springframework.security.web.header.HeaderWriterFilter@7ccfed46, org.springframework.security.web.authentication.logout.LogoutFilter@8929865, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3070f59f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62b2bc2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12f933c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3445341, org.springframework.security.web.access.ExceptionTranslationFilter@5620470a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@301c622d]
+2020-04-21 20:39:21.333 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 21 endpoint(s) beneath base path '/actuator'
+2020-04-21 20:39:21.523 [main] INFO  io.undertow - starting server: Undertow - 2.0.29.Final
+2020-04-21 20:39:21.534 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-04-21 20:39:21.550 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-04-21 20:39:21.621 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 57538 (http) with context path ''
+2020-04-21 20:39:21.624 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.135","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":57538,"scheduled":false,"serviceName":"DEFAULT_GROUP@@demo-operation","stopped":false,"weight":1.0} to beat map.
+2020-04-21 20:39:21.723 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@demo-operation with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.135","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":57538,"weight":1.0}
+2020-04-21 20:39:21.787 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP demo-operation 192.168.0.135:57538 register finished
+2020-04-21 20:39:23.000 [main] INFO  com.demo.demooperation.DemoOperationApplication - Started DemoOperationApplication in 21.451 seconds (JVM running for 24.143)
+2020-04-21 20:39:23.008 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-47.110.224.48_8848] [subscribe] demo-operation+DEFAULT_GROUP
+2020-04-21 20:39:23.009 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-47.110.224.48_8848] [add-listener] ok, tenant=, dataId=demo-operation, group=DEFAULT_GROUP, cnt=1
+2020-04-21 20:39:23.012 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-47.110.224.48_8848] [subscribe] demo-operation-localtest.yaml+DEFAULT_GROUP
+2020-04-21 20:39:23.012 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-47.110.224.48_8848] [add-listener] ok, tenant=, dataId=demo-operation-localtest.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-21 20:39:23.014 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-47.110.224.48_8848] [subscribe] demo-operation.yaml+DEFAULT_GROUP
+2020-04-21 20:39:23.014 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-47.110.224.48_8848] [add-listener] ok, tenant=, dataId=demo-operation.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-21 20:39:26.814 [RMI TCP Connection(7)-192.168.126.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-21 20:39:26.814 [RMI TCP Connection(7)-192.168.126.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-21 20:39:26.873 [RMI TCP Connection(7)-192.168.126.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 59 ms
+2020-04-21 20:39:27.495 [boundedElastic-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-21 20:39:27.498 [boundedElastic-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-21 20:40:24.058 [main] INFO  c.u.j.c.EnableEncryptablePropertiesConfiguration - Bootstraping jasypt-string-boot auto configuration in context: demo-operation-1
+2020-04-21 20:40:24.059 [main] INFO  com.demo.demooperation.DemoOperationApplication - The following profiles are active: localtest
+2020-04-21 20:40:25.753 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-21 20:40:25.756 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-21 20:40:25.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-04-21 20:40:26.174 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=a72a60e2-a63d-377c-901c-3b7ef612dce3
+2020-04-21 20:40:26.311 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2020-04-21 20:40:26.330 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource bootstrapProperties [org.springframework.cloud.bootstrap.support.OriginTrackedCompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-04-21 20:40:26.331 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-21 20:40:26.331 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 20:40:26.331 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 20:40:26.332 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:40:26.332 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:40:26.332 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-21 20:40:26.332 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:40:26.332 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:40:26.332 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-21 20:40:26.393 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-21 20:40:26.711 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.728 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@72110818' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.730 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.746 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.749 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.750 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.762 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-21 20:40:26.762 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-21 20:40:26.893 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.967 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:26.993 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-21 20:40:27.501 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-04-21 20:40:27.502 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3414 ms
+2020-04-21 20:40:29.473 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-04-21 20:40:29.474 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2020-04-21 20:40:29.475 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2020-04-21 20:40:30.472 [main] INFO  o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-21 20:40:30.721 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2020-04-21 20:40:30.724 [main] INFO  org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2020-04-21 20:40:30.742 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-04-21 20:40:30.743 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2020-04-21 20:40:30.760 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting...
+2020-04-21 20:40:31.207 [main] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed.
+2020-04-21 20:40:31.224 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2020-04-21 20:40:31.227 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2020-04-21 20:40:31.228 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'PCOS-2019EYIZMC1587472830723'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-04-21 20:40:31.228 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-04-21 20:40:31.228 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2020-04-21 20:40:31.228 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@71cc0e35
+2020-04-21 20:40:31.493 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+2020-04-21 20:40:31.493 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "PCOS-2019EYIZMC1587472753135"'s failed in-progress jobs.
+2020-04-21 20:40:31.614 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472830723 started.
+2020-04-21 20:40:31.623 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472830723 started.
+2020-04-21 20:40:31.693 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:40:34.350 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-21 20:40:34.357 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-21 20:40:34.694 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-21 20:40:34.783 [main] INFO  c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-04-21 20:40:35.013 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-04-21 20:40:35.855 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 574bbe8c-59f2-4bc6-9fc3-86e33656722b
+
+2020-04-21 20:40:36.315 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a0f5567, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cd6fae8, org.springframework.security.web.header.HeaderWriterFilter@628b1538, org.springframework.security.web.authentication.logout.LogoutFilter@e196238, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@102dff25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6557dcea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3be60847, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@106f0051, org.springframework.security.web.access.ExceptionTranslationFilter@17e323fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@137a9d69]
+2020-04-21 20:40:38.991 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 21 endpoint(s) beneath base path '/actuator'
+2020-04-21 20:40:39.200 [main] INFO  io.undertow - starting server: Undertow - 2.0.29.Final
+2020-04-21 20:40:39.210 [main] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-04-21 20:40:39.231 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-04-21 20:40:39.316 [main] INFO  o.s.b.w.embedded.undertow.UndertowServletWebServer - Undertow started on port(s) 57598 (http) with context path ''
+2020-04-21 20:40:39.321 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.0.135","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":57598,"scheduled":false,"serviceName":"DEFAULT_GROUP@@demo-operation","stopped":false,"weight":1.0} to beat map.
+2020-04-21 20:40:39.436 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@demo-operation with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.0.135","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":57598,"weight":1.0}
+2020-04-21 20:40:39.517 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP demo-operation 192.168.0.135:57598 register finished
+2020-04-21 20:40:41.410 [main] INFO  com.demo.demooperation.DemoOperationApplication - Started DemoOperationApplication in 22.563 seconds (JVM running for 26.851)
+2020-04-21 20:40:41.420 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-47.110.224.48_8848] [subscribe] demo-operation+DEFAULT_GROUP
+2020-04-21 20:40:41.421 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-47.110.224.48_8848] [add-listener] ok, tenant=, dataId=demo-operation, group=DEFAULT_GROUP, cnt=1
+2020-04-21 20:40:41.423 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-47.110.224.48_8848] [subscribe] demo-operation-localtest.yaml+DEFAULT_GROUP
+2020-04-21 20:40:41.424 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-47.110.224.48_8848] [add-listener] ok, tenant=, dataId=demo-operation-localtest.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-21 20:40:41.425 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-47.110.224.48_8848] [subscribe] demo-operation.yaml+DEFAULT_GROUP
+2020-04-21 20:40:41.425 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-47.110.224.48_8848] [add-listener] ok, tenant=, dataId=demo-operation.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-21 20:40:42.891 [RMI TCP Connection(3)-192.168.126.1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-21 20:40:42.892 [RMI TCP Connection(3)-192.168.126.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-21 20:40:42.922 [RMI TCP Connection(3)-192.168.126.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2020-04-21 20:40:43.759 [boundedElastic-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-21 20:40:43.763 [boundedElastic-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-21 20:41:31.719 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:42:31.712 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:43:31.713 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:44:31.706 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:45:31.703 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:46:31.720 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:47:31.740 [QuartzScheduler_quartzScheduler-PCOS-2019EYIZMC1587472830723_MisfireHandler] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Handling 3 trigger(s) that missed their scheduled fire-time.
+2020-04-21 20:47:49.062 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472830723 paused.
+2020-04-21 20:47:49.069 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-21 20:47:49.069 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@demo-operation:192.168.0.135:57598 from beat map.
+2020-04-21 20:47:49.069 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@demo-operation with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.0.135","ipDeleteTimeout":30000,"metadata":{},"port":57598,"weight":1.0}
+2020-04-21 20:47:49.122 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-21 20:47:49.123 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-04-21 20:47:49.123 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-21 20:47:49.126 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2020-04-21 20:47:49.126 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472830723 shutting down.
+2020-04-21 20:47:49.126 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472830723 paused.
+2020-04-21 20:47:49.127 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_PCOS-2019EYIZMC1587472830723 shutdown complete.
+2020-04-21 20:47:49.380 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated...
+2020-04-21 20:47:49.434 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed.
+2020-04-21 20:47:49.437 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-04-21 20:47:49.439 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.0.29.Final

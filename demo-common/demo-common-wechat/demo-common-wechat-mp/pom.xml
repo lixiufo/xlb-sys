@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.demo</groupId>
+        <artifactId>demo-common-wechat</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <artifactId>demo-common-wechat-mp</artifactId>
+    <version>0.0.1</version>
+    <name>demo-common-wechat-mp</name>
+    <description>公众号平台</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>${wxJava.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

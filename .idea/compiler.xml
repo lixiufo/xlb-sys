@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="videos-dao" />
+        <module name="video-utils" />
+        <module name="demo-gateway" />
+        <module name="demo-common-wechat-miniapp" />
+        <module name="demo-operation" />
+        <module name="demo-common-wechat-pay" />
+        <module name="demo-common-data-redis" />
+        <module name="demo-common-quartz" />
+        <module name="demo-common-data-mybatis" />
+        <module name="demo-oauth" />
+        <module name="demo-common-log" />
+        <module name="videos-web" />
+        <module name="demo-common-core" />
+        <module name="demo-common-wechat-common" />
+        <module name="videos-pojo" />
+        <module name="demo-common-swagger" />
+        <module name="demo-common-wechat-open" />
+        <module name="videos-services" />
+        <module name="demo-nacos-server" />
+        <module name="demo-common-wechat-mp" />
+        <module name="demo-common-rabbitmq" />
+        <module name="demo-common-data-mongo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-common" target="11" />
+      <module name="demo-common-core" target="11" />
+      <module name="demo-common-data-mongo" target="11" />
+      <module name="demo-common-data-mybatis" target="11" />
+      <module name="demo-common-data-redis" target="11" />
+      <module name="demo-common-log" target="11" />
+      <module name="demo-common-quartz" target="11" />
+      <module name="demo-common-rabbitmq" target="11" />
+      <module name="demo-common-swagger" target="11" />
+      <module name="demo-common-wechat" target="11" />
+      <module name="demo-common-wechat-common" target="11" />
+      <module name="demo-common-wechat-miniapp" target="11" />
+      <module name="demo-common-wechat-mp" target="11" />
+      <module name="demo-common-wechat-open" target="11" />
+      <module name="demo-common-wechat-pay" target="11" />
+      <module name="demo-gateway" target="11" />
+      <module name="demo-nacos-server" target="11" />
+      <module name="demo-oauth" target="11" />
+      <module name="demo-operation" target="11" />
+      <module name="demo-x-biz" target="11" />
+      <module name="demo-x-micro" target="11" />
+      <module name="video-utils" target="1.8" />
+      <module name="videos-dao" target="1.8" />
+      <module name="videos-parent" target="1.8" />
+      <module name="videos-pojo" target="1.8" />
+      <module name="videos-services" target="1.8" />
+      <module name="videos-web" target="1.8" />
+      <module name="xlb-sys" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-operation" options="" />
+    </option>
+  </component>
+</project>

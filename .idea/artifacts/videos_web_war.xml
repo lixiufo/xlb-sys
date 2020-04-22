@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="videos-web:war">
+    <output-path>$PROJECT_DIR$/../新建文件夹 (2)/videos-parent/videos-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>videos-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="videos-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="videos-web:war exploded" />
+    </root>
+  </artifact>
+</component>

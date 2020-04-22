@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo-oauth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.116.197:8848
+      config:
+        server-addr: 172.16.116.197:8848
+        file-extension: yaml
+        prefix: demo-oauth
